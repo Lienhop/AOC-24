@@ -1,4 +1,5 @@
 def main():
+    #Result is almost correct, just -1. No idea where the error is..
     with open('data.csv') as f:
         lines = f.readlines()
         count = 0
